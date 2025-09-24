@@ -1,0 +1,6 @@
+transformations:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/dagster/app/data/air_quality.duckdb

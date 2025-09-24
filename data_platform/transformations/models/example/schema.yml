@@ -1,0 +1,9 @@
+
+version: 2
+
+models:
+  - name: test_model
+    description: "A test dbt model"
+  - name: test_model_data_fetching_analysis
+    description: "Model creates table from few hours of traffic data to analyse the data fetching interval
+                  the model also creates measurement_time_local since writing to parquet changes time zone measurement_time col"
