@@ -1,0 +1,8 @@
+
+version: 2
+
+models:
+
+  - name: air_quality_data_2025-09-25
+
+  - name: traffic_flow_data_2025-09-25

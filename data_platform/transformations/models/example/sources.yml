@@ -1,0 +1,17 @@
+sources:
+
+  - name: air_quality_aq
+    schema: air_quality_data
+    tables:
+      - name: gbgs_air_quality_data
+        meta:
+          dagster:
+            asset_key: ['GBGS_raw_data']
+
+  - name: air_quality_tf
+    schema: traffic_flow_data
+    tables:
+      - name: tv_traffic_flow_data
+        meta:
+          dagster:
+            asset_key: ['TV_raw_data']

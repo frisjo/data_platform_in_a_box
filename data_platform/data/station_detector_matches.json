@@ -1,0 +1,72 @@
+[
+  {
+    "monitoring_station_index": 0,
+    "monitoring_station_name": "Femman",
+    "monitoring_coord": [
+      57.70898402058082,
+      11.970403562090072
+    ],
+    "closest_detector_id": 1933,
+    "closest_detector_coord": [
+      57.71105,
+      11.967333
+    ],
+    "distance_km": 0.29401590764618685
+  },
+  {
+    "monitoring_station_index": 1,
+    "monitoring_station_name": "Haga Spr\u00e4ngkullsgatan",
+    "monitoring_coord": [
+      57.69783243009199,
+      11.960666971627088
+    ],
+    "closest_detector_id": 1902,
+    "closest_detector_coord": [
+      57.70184,
+      11.955493
+    ],
+    "distance_km": 0.5425768773171467
+  },
+  {
+    "monitoring_station_index": 2,
+    "monitoring_station_name": "Haga \u00d6vre Husargatan",
+    "monitoring_coord": [
+      57.693860462718426,
+      11.956747320036246
+    ],
+    "closest_detector_id": 1902,
+    "closest_detector_coord": [
+      57.70153,
+      11.952848
+    ],
+    "distance_km": 0.8852558431375095
+  },
+  {
+    "monitoring_station_index": 3,
+    "monitoring_station_name": "Mobil 2",
+    "monitoring_coord": [
+      57.716522397428314,
+      11.9601069026233
+    ],
+    "closest_detector_id": 1929,
+    "closest_detector_coord": [
+      57.711178,
+      11.9673
+    ],
+    "distance_km": 0.7335535904254666
+  },
+  {
+    "monitoring_station_index": 4,
+    "monitoring_station_name": "Mobil 3",
+    "monitoring_coord": [
+      57.735333770983885,
+      12.012341388540955
+    ],
+    "closest_detector_id": 2221,
+    "closest_detector_coord": [
+      57.732372,
+      12.000518
+    ],
+    "distance_km": 0.7777467895571993
+  }
+]

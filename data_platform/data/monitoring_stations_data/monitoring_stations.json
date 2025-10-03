@@ -1,0 +1,34 @@
+{
+  "locations": [
+    {
+      "id": "1",
+      "name": "Femman",
+      "address": "Nils Ericsonsgatan 17, 411 03 Göteborg",
+      "coordinates": [57.70898402058082, 11.970403562090072]
+    },
+    {
+      "id": "2", 
+      "name": "Haga Sprängkullsgatan",
+      "address": "Sprängkullsgatan 19, 411 23 Göteborg",
+      "coordinates": [57.69783243009199, 11.960666971627088]
+    },
+    {
+      "id": "3",
+      "name": "Haga Övre Husargatan", 
+      "address": "Övre Husargatan 15, 413 14 Göteborg",
+      "coordinates": [57.693860462718426, 11.956747320036246]
+    },
+    {
+      "id": "4",
+      "name": "Mobil 2", 
+      "address": "Frihamnen 12, 417 70 Göteborg",
+      "coordinates": [57.716522397428314, 11.9601069026233]
+    },
+    {
+      "id": "5",
+      "name": "Mobil 3", 
+      "address": "Ambrosiusgatan 1, 415 05 Göteborg",
+      "coordinates": [57.735333770983885, 12.012341388540955]
+    }
+  ]
+}

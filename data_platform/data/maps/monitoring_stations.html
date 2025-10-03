@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a7fe209ad49eab6924aad948b91fbd8e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a7fe209ad49eab6924aad948b91fbd8e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a7fe209ad49eab6924aad948b91fbd8e = L.map(
+                "map_a7fe209ad49eab6924aad948b91fbd8e",
+                {
+                    center: [57.7089, 11.9746],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9f7a39ff2115ff80360b9f51648febf5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9f7a39ff2115ff80360b9f51648febf5.addTo(map_a7fe209ad49eab6924aad948b91fbd8e);
+        
+    
+            var marker_c4e15dce19af471b035ef4dddb60780a = L.marker(
+                [57.70898402058082, 11.970403562090072],
+                {
+}
+            ).addTo(map_a7fe209ad49eab6924aad948b91fbd8e);
+        
+    
+            var icon_a250b367f0664d5fc8a8dfab025559d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2218c5d213c4ae236d7a57deee778f0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27afba8d2e7ddad47a6eb4333b61c0c1 = $(`<div id="html_27afba8d2e7ddad47a6eb4333b61c0c1" style="width: 100.0%; height: 100.0%;">Lat: 57.70898402058082, Lon: 11.970403562090072, Station name: Femman</div>`)[0];
+                popup_2218c5d213c4ae236d7a57deee778f0e.setContent(html_27afba8d2e7ddad47a6eb4333b61c0c1);
+            
+        
+
+        marker_c4e15dce19af471b035ef4dddb60780a.bindPopup(popup_2218c5d213c4ae236d7a57deee778f0e)
+        ;
+
+        
+    
+    
+                marker_c4e15dce19af471b035ef4dddb60780a.setIcon(icon_a250b367f0664d5fc8a8dfab025559d5);
+            
+    
+            var marker_328ae1aa93e5b368af42e6de34a405e4 = L.marker(
+                [57.69783243009199, 11.960666971627088],
+                {
+}
+            ).addTo(map_a7fe209ad49eab6924aad948b91fbd8e);
+        
+    
+            var icon_c2d4db4116b4bf6203fbc29766d7e703 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84ad0afb70cbfcc745be05d0025a9e28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02b2e120f97115de511138fb367ee070 = $(`<div id="html_02b2e120f97115de511138fb367ee070" style="width: 100.0%; height: 100.0%;">Lat: 57.69783243009199, Lon: 11.960666971627088, Station name: Haga Sprängkullsgatan</div>`)[0];
+                popup_84ad0afb70cbfcc745be05d0025a9e28.setContent(html_02b2e120f97115de511138fb367ee070);
+            
+        
+
+        marker_328ae1aa93e5b368af42e6de34a405e4.bindPopup(popup_84ad0afb70cbfcc745be05d0025a9e28)
+        ;
+
+        
+    
+    
+                marker_328ae1aa93e5b368af42e6de34a405e4.setIcon(icon_c2d4db4116b4bf6203fbc29766d7e703);
+            
+    
+            var marker_94da848536e90abcb90758b55fd92834 = L.marker(
+                [57.693860462718426, 11.956747320036246],
+                {
+}
+            ).addTo(map_a7fe209ad49eab6924aad948b91fbd8e);
+        
+    
+            var icon_c36e625721a36778ad4d2a7548b4c7bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67e7d6f627d50ed15efb56ba869d1225 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b05e64c13c133dbbecdc2fe1719385b8 = $(`<div id="html_b05e64c13c133dbbecdc2fe1719385b8" style="width: 100.0%; height: 100.0%;">Lat: 57.693860462718426, Lon: 11.956747320036246, Station name: Haga Övre Husargatan</div>`)[0];
+                popup_67e7d6f627d50ed15efb56ba869d1225.setContent(html_b05e64c13c133dbbecdc2fe1719385b8);
+            
+        
+
+        marker_94da848536e90abcb90758b55fd92834.bindPopup(popup_67e7d6f627d50ed15efb56ba869d1225)
+        ;
+
+        
+    
+    
+                marker_94da848536e90abcb90758b55fd92834.setIcon(icon_c36e625721a36778ad4d2a7548b4c7bc);
+            
+    
+            var marker_8bbd8a857aad32a40536a0941d82d876 = L.marker(
+                [57.716522397428314, 11.9601069026233],
+                {
+}
+            ).addTo(map_a7fe209ad49eab6924aad948b91fbd8e);
+        
+    
+            var icon_1480a0d367d0a5648ade999240fd6966 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea406880da784efe0c1123df1b0b16f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9fdffb1733cf4ac3a9889fbffb78c85 = $(`<div id="html_b9fdffb1733cf4ac3a9889fbffb78c85" style="width: 100.0%; height: 100.0%;">Lat: 57.716522397428314, Lon: 11.9601069026233, Station name: Mobil 2</div>`)[0];
+                popup_ea406880da784efe0c1123df1b0b16f1.setContent(html_b9fdffb1733cf4ac3a9889fbffb78c85);
+            
+        
+
+        marker_8bbd8a857aad32a40536a0941d82d876.bindPopup(popup_ea406880da784efe0c1123df1b0b16f1)
+        ;
+
+        
+    
+    
+                marker_8bbd8a857aad32a40536a0941d82d876.setIcon(icon_1480a0d367d0a5648ade999240fd6966);
+            
+    
+            var marker_9ec4237a346006e87c1416e3c77b4b8b = L.marker(
+                [57.735333770983885, 12.012341388540955],
+                {
+}
+            ).addTo(map_a7fe209ad49eab6924aad948b91fbd8e);
+        
+    
+            var icon_541f3f6068ce1dbcb830b4468ffe1b5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92a8d6ad32b3d49eaadc7dc2af243f2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1faeb43e65d6861c66df9ef244a9bce = $(`<div id="html_f1faeb43e65d6861c66df9ef244a9bce" style="width: 100.0%; height: 100.0%;">Lat: 57.735333770983885, Lon: 12.012341388540955, Station name: Mobil 3</div>`)[0];
+                popup_92a8d6ad32b3d49eaadc7dc2af243f2f.setContent(html_f1faeb43e65d6861c66df9ef244a9bce);
+            
+        
+
+        marker_9ec4237a346006e87c1416e3c77b4b8b.bindPopup(popup_92a8d6ad32b3d49eaadc7dc2af243f2f)
+        ;
+
+        
+    
+    
+                marker_9ec4237a346006e87c1416e3c77b4b8b.setIcon(icon_541f3f6068ce1dbcb830b4468ffe1b5b);
+            
+</script>
+</html>

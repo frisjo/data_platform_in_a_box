@@ -1,0 +1,7 @@
+services:
+  dagster-app:
+    image: data-platform
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
